@@ -77,7 +77,7 @@ function evenOrOdd(number) {
 console.log(evenOrOdd(4));  // "Even"
 console.log(evenOrOdd(7));  // "Odd"
 console.log(evenOrOdd(0));  // "Even"
-
+```
 ---
 
 ## Опыт работы
