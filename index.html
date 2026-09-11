@@ -1,9 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
-    <body></body>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Павел Петров</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cv-container">
+        
+        <aside class="sidebar">
+            <div class="avatar">
+                <img src="images/avatar.jpg"
+                     alt="Фото Павла Петрова" width="160" height="160">
+            </div>
+
+            <section class="sidebar-section" id="contacts">
+                <h2>Контакты</h2>
+                <ul>
+                    <li>
+                        <img src="icons/phone.svg" alt="phone" width="20" height="20" class="icon">
+                        <a href="tel:+79379558421">+7 (937) 955-84-21</a>
+                    </li>
+                    <li>
+                        <img src="icons/email.svg" alt="phone" width="20" height="20" class="icon">
+                        <a href="mailto:q1x1c1@outlook.com">q1x1c1@outlook.com</a>
+                    </li>
+                    <li>
+                        <img src="icons/github.svg" alt="phone" width="22" height="22" class="icon">
+                        <a href="https://github.com/q1x1c1">github.com/q1x1c1</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="sidebar-section" id="skills">
+                <h2>Навыки</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Git / GitHub</li>
+                    <li>BEM</li>
+                    <li>Адаптивная вёрстка</li>
+                </ul>
+            </section>
+
+            <section class="sidebar-section" id="tools">
+                <h2>Инструменты</h2>
+                <ul>
+                    <li>VS Code</li>
+                    <li>Chrome DevTools</li>
+                    <li>Figma</li>
+                    <li>Bootstrap</li>
+                    <li>React.js (базово)</li>
+                    <li>Markdown</li>
+                </ul>
+            </section>
+        </aside>
+
+        <div class="main-content">
+            <header>
+                <h1>Павел Петров</h1>
+            </header>
+
+            <nav>
+                <ul>
+                    <li><a href="#about">О себе</a></li>
+                    <li><a href="#experience">Опыт</a></li>
+                    <li><a href="#education">Образование</a></li>
+                    <li><a href="#english">Английский</a></li>
+                </ul>
+            </nav>
+
+            <main>
+                <section id="about">
+                    <h2>О себе</h2>
+                    <p>Начинающий Frontend-разработчик с активной жизненной позицией и высоким уровнем самомотивации. Прохожу интенсивный курс по фронтенд-разработке в RS School, осваиваю современные веб-технологии.</p>
+                    <p><strong>Цель:</strong> получить первый коммерческий опыт, работать над реальными проектами и постоянно развиваться.</p>
+
+                    <h3>Сильные стороны</h3>
+                    <ul>
+                        <li>Ответственность и дисциплина</li>
+                        <li>Быстрое обучение новым технологиям</li>
+                        <li>Внимательность к деталям</li>
+                        <li>Работа с документацией и поиск решений</li>
+                        <li>Коммуникабельность и работа в команде</li>
+                    </ul>
+                </section>
+
+                <section id="experience">
+                    <h2>Опыт работы</h2>
+
+                    <h3>RS School - Frontend Course</h3>
+                    <p class="date">2026 - настоящее время</p>
+                    <ul>
+                        <li>Выполняю учебные задания по HTML, CSS и JavaScript</li>
+                        <li>Изучаю адаптивную вёрстку, Flexbox и Grid</li>
+                        <li>Применяю принципы семантической вёрстки и BEM</li>
+                        <li>Осваиваю React.js на начальном уровне</li>
+                        <li>Работаю с Git, GitHub и Chrome DevTools</li>
+                        <li>Решаю задачи на Codewars, знаком с Figma</li>
+                    </ul>
+
+                    <h3>Коммерческий опыт</h3>
+                    <p>Пока отсутствует. Готов применять знания на практике и быстро обучаться.</p>
+                </section>
+
+                <section id="education">
+                    <h2>Образование</h2>
+
+                    <h3>Астраханский государственный технический университет</h3>
+                    <p class="date">2023 — 2027 (в процессе)</p>
+                    <p>Факультет информационных технологий и систем</p>
+                    <p>Специальность: «Информационные системы и программирование»</p>
+                    <p>Степень: бакалавр (неоконченное высшее)</p>
+
+                    <h3>Ключевые дисциплины</h3>
+                    <ul>
+                        <li>Информатика</li>
+                        <li>Основы алгоритмизации и программирования</li>
+                        <li>Базы данных</li>
+                        <li>Операционные системы</li>
+                        <li>Компьютерные сети</li>
+                    </ul>
+                </section>
+
+                <section id="english">
+                    <h2>Английский язык</h2>
+                    <p><strong>Уровень:</strong> A2 </p>
+
+                    <h3>Навыки</h3>
+                    <ul>
+                        <li><strong>Чтение:</strong> читаю техническую документацию (MDN) со словарём</li>
+                        <li><strong>Письмо:</strong> комментарии к коду и сообщения коммитов на английском</li>
+                        <li><strong>Аудирование:</strong> понимаю учебные видео с субтитрами</li>
+                        <li><strong>Говорение:</strong> базовый уровень, работаю над произношением</li>
+                    </ul>
+
+                    <h3>Практика</h3>
+                    <ul>
+                        <li>Читаю статьи на Medium, Dev.to, документацию React</li>
+                        <li>Смотрю видео FreeCodeCamp, Traversy Media, WebDevSimplified</li>
+                        <li>Общаюсь в Discord-сообществах разработчиков</li>
+                    </ul>
+                </section>
+            </main>
+
+            <footer>
+                <p>&copy; 2026 Павел Петров</p>
+                <p>
+                    <a href="https://github.com/q1x1c1" target="_blank">
+                    <img src="icons/github_footer.svg" alt="ссылка на github" width="35" height="35">
+                    </a>
+                </p>
+                <p>
+                    <a href="https://rs.school/ru/courses/javascript" target="_blank">
+                    <img src="images/rs-logo.svg" alt="ссылка на курс" width="70" height="40">
+                    </a>
+                </p>
+            </footer>
+        </div>
+    </div>
+</body>
 </html>
